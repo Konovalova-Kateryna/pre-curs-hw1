@@ -1,0 +1,154 @@
+.body {
+  font-family: 'Roboto', sans-serif;
+
+  width: 1200px;
+  background-color: #fff;
+  margin: auto;
+}
+
+.top-line {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 9px;
+  background: #ffffff;
+}
+.top-line-menu {
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 41px;
+
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+.top-line-menu-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.banner {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a21;
+  margin-bottom: 90px;
+}
+.banner-text {
+  margin: 200px 452px 30px 452px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.banner-button {
+  margin: 0 700px 200px 700px;
+  width: 200px;
+  height: 50px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.banner-button-text {
+  margin: 10px 30px 10px 40px;
+  /* padding: 0px 30px 10px 40px; */
+
+  width: 136px;
+  height: 30px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.peculiarities {
+  padding: 775px 215px 95px 215px;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+.peculiarities-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.peculiarities-title {
+}
+.peculiarities-item {
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+
+  padding-left: 30px;
+}
+.peculiarities-item-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.peculiarities-item-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+.employment {
+  padding: 970 215px 90px 215px;
+}
+/* .web {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 33px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+} 
+.studio {
+} */
